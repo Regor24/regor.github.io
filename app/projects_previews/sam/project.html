@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>СЭМиК - главная</title>
+  <link rel="shortcut icon" href="images/favicon.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/ispinner.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link type="text/css" rel="stylesheet" href="css/lightslider.css" />                  
+  <script src="scripts/jquery-1.12.3.min.js"></script>
+  <script src="scripts/lightslider.js"></script>
+
+</head>
+<body class="page-project">
+  
+  <div class="js-background-overlay"></div>
+
+  <header class="page-header">
+    <div class="page-header__top">
+    <div class="page-header__opacity-block"></div>
+      <div class="container">
+        <div class="logo">
+          <a href="#" class="logo__link"><img src="images/logo.png" alt="logo" width="261" height="69"></a> 
+        </div> 
+        <div class="contacts">
+          <p class="contacts__phone">
+            +7 (983) 263-55-89
+          </p>
+          <div class="contacts__phone-link">
+            <div class="header-phone-links">
+              <input id="header-link-button" type="checkbox">
+              <label class="header-link js-header-link-button" for="header-link-button">
+              телефоны отделов</label>
+              <label class="modal-header-links__close-cross js-close-cross" for="header-link-button"></label>   
+              <div class="modal-header-links   js-modal-header-links"> 
+                <span class="modal-header-links__text">Приемная:</span>
+                <a class="modal-header-links__link" href="tel:+73912249799">+7 (391) 224-97-99</a>
+                <span class="modal-header-links__text">Отдел продаж:</span>
+                <a class="modal-header-links__link" href="tel:+73912747797">+7 (391) 274-77-97</a>
+                <span class="modal-header-links__text">Отдел маркетинга:</span>
+                <a class="modal-header-links__link" href="tel:+73912748799">+7 (391) 274-87-99 (доб. 11-76, 11-75)</a>
+                <span class="modal-header-links__text">Электронная почта:</span>
+                <a class="modal-header-links__link modal-header-links__link--mail" href="mailto:info@samik.com">info@samik.com</a>
+              </div>               
+            </div>
+          </div>
+        </div>     
+      </div>      
+    </div>
+    <div class="page-header__main">
+      <div class="main-navigation-wrap">
+        <div class="container">
+          <nav class="main-navigation">
+            <ul>
+              <li>
+                <a href="#">О компании</a>
+              </li>
+              <li>
+                <a href="index.html">Наши объекты</a>
+              </li>
+              <li>
+                <a href="page-hypothec.html">Ипотека</a>
+              </li>
+              <li>
+                <a href="page-press.html">Пресс-центр</a>
+              </li>
+              <li>
+                <a href="page-partners.html">Партнеры</a>
+              </li>
+              <li>
+                <a href="page-contacts.html">Контакты</a>
+              </li>
+              <li class="active">
+                <a href="project.html">Подбор квартир</a>
+              </li>
+            </ul> 
+          </nav>               
+        </div>         
+      </div>
+    </div> 
+  </header>
+  
+
+
+
+  <div class="page-content">
+    <div class="container modal-form-plan-container">
+      <div class="breadcrumbs">
+        <a href="#" class="breadcrumbs__item">Главная</a>  
+        <a href="#" class="breadcrumbs__item">Наши объекты</a>  
+        <a href="#" class="breadcrumbs__item">Жилой дом № 1</a>  
+        <a href="#" class="breadcrumbs__sitemap">Карта сайта</a>
+      </div>
+      
+      <div class="project">
+        <div class="project-header">
+          <h1 class="project-header__header">Жилой дом №1</h1>
+          <div class="project-header__info-block">
+            <span>Сдача 3 кв. 2016 г.</span>
+          </div>  
+        </div>
+        <div class="project-body">
+
+          <div class="project-body__content">
+            
+            <div class="nav-list js-proj-nav-list">
+              <input type="radio" name="tabs" id="tab-about" >
+              <label class="nav-list__item" for="tab-about">О проекте</label> 
+
+              <input type="radio" name="tabs" id="tab-gallery" checked>
+              <label class="nav-list__item" for="tab-gallery">Фотогалерея</label>
+
+              <input type="radio" name="tabs" id="tab-plan" >
+              <label class="nav-list__item" for="tab-plan">Планировки</label> 
+
+              <input type="radio" name="tabs" id="tab-docs" >
+              <label class="nav-list__item" for="tab-docs">Документация</label>  
+
+              <input type="radio" name="tabs" id="tab-map" >
+              <label class="nav-list__item" for="tab-map">Карта</label> 
+
+              <input type="radio" name="tabs" id="tab-sales" >
+              <label class="nav-list__item" for="tab-sales">Продажа квартир</label> 
+            </div>
+
+            <div id="tab-content-about" class="project-about tab-content">
+              <div class="project-about__text-block">
+                <p>«Преображенский» — новый микрорайон Красноярска с ОСОБОЙ средой проживания и новым образом жизни. Быстро строится в наиболее перспективном – Советском районе города Красноярска.</p>
+                <ul class="project-about__list">
+                  <li>общая площадь жилой застройки — 42,8 Га</li>
+                  <li>рассчитан на проживание примерно 15 тысяч горожан</li>
+                  <li>21 дом от 5 до 25 этажей</li>
+                  <li>предусмотрено строительство 4 детских садов, 2 школ и поликлиники<sup>*</sup></li>
+                  <li>Срок реализации 2014—2021 г.</li>
+                </ul>  
+                <p><sup>*</sup>Согласно постановлению администрации г. Красноярск № 91 от 22.02.2013 г. «Об утверждении проекта планировки и межевания территории жилого района «Слобода Весны».</p>
+                <ul class="project-about__info-block">
+                  <li>Ориентиры</li>
+                  <li>Арена-Север</li>
+                  <li>ТРЦ "Планета"</li>
+                  <li>"Лента", гипермаркет</li>
+                  <li>ул. Авиаторов</li>                  
+                </ul>                
+              </div>
+              <div class="project-about__gallery-block">
+                <a href="#"><img src="pictures/project-image.png"></a>  
+              </div>
+            </div>          
+
+
+
+
+            <div id="tab-content-gallery" class="project-gallery  tab-content">
+              <ul id="lightSlider">
+                <li data-thumb="pictures/slider-th-1.png"><a href="#"><img src="pictures/slider-big-1.png" alt=""></a></li>
+                <li data-thumb="pictures/slider-th-2.png"><a href="#"><img src="pictures/slider-big-2.png" alt=""></a></li>
+                <li data-thumb="pictures/slider-th-3.png"><a href="#"><img src="pictures/slider-big-3.png" alt=""></a></li>
+                <li data-thumb="pictures/slider-th-4.png"><a href="#"><img src="pictures/slider-big-4.png" alt=""></a></li>
+                <li data-thumb="pictures/slider-th-5.png"><a href="#"><img src="pictures/slider-big-5.png" alt=""></a></li>
+                <li data-thumb="pictures/slider-th-6.png"><a href="#"><img src="pictures/slider-big-6.png" alt=""></a></li>
+                <li data-thumb="pictures/slider-th-7.png"><a href="#"><img src="pictures/slider-big-7.png" alt=""></a></li>
+              </ul>
+            </div>               
+
+           
+            <div id="tab-content-plan" class="project-plan tab-content">
+              <div class="project-plan__levels">
+                <span class="levels-header">Выбор этажа</span>
+                <ul class="levels-list   js-levels-navs"> 
+                  <li class="levels-list__item" >               
+                    <input type="radio" name="levels" id="level1" checked>   
+                    <label for="level1">1</label>                   
+                  </li>  
+                  <li class="levels-list__item" >               
+                    <input type="radio" name="levels" id="level2" >
+                    <label for="level2">2</label>  
+                  </li>
+                  <li class="levels-list__item" >               
+                    <input type="radio" name="levels" id="level3" >
+                     <label for="level3">3</label>  
+                  </li>
+                  <li class="levels-list__item" >             
+                    <input type="radio" name="levels" id="level4" >
+                    <label for="level4">4</label>    
+                  </li>
+                  <li class="levels-list__item" >              
+                    <input type="radio" name="levels" id="level5" >
+                    <label for="level5">5</label>   
+                  </li>
+                  <li class="levels-list__item" >                
+                    <input type="radio" name="levels" id="level6" >
+                    <label for="level6">6</label> 
+                  </li>
+
+                </ul>  
+              </div>
+
+              <div class="project-plan__plan-image   js-levels-content">
+                <div class="plan-map" level="level1">
+                  <img src="pictures/plan-image.jpg">
+                  <div class="plan-map__item  js-plan-item" item="plan-item">
+                    1
+                  </div>                  
+                </div>
+                <div class="plan-map" level="level2">
+                  <img src="pictures/plan-image1.jpg">
+                  <div class="plan-map__item  js-plan-item" item="plan-item">
+                    2
+                  </div>                  
+                </div>
+                <div class="plan-map" level="level3">
+                  <img src="pictures/plan-image.jpg">
+                  <div class="plan-map__item  js-plan-item" item="plan-item">
+                    3
+                  </div>                  
+                </div>
+                <div class="plan-map" level="level4">
+                  <img src="pictures/plan-image1.jpg">
+                  <div class="plan-map__item  js-plan-item" item="plan-item">
+                    4
+                  </div>                  
+                </div>
+                <div class="plan-map" level="level5">
+                  <img src="pictures/plan-image.jpg">
+                  <div class="plan-map__item  js-plan-item" item="plan-item">
+                    5
+                  </div>                  
+                </div>
+                <div class="plan-map" level="level6">
+                  <img src="pictures/plan-image1.jpg">
+                  <div class="plan-map__item  js-plan-item" item="plan-item">
+                    6
+                  </div>                  
+                </div>
+              </div> 
+
+            </div>                
+
+           
+            <div id="tab-content-docs" class="project-docs tab-content">
+              <ul class="docs-list">
+                <li class="docs-list__item"><a href=".doc">Проектная декларация и изменения на жилой дом №1</a></li>
+                <li class="docs-list__item"><a href=".pdf">Проектная декларация и изменения на двухуровневую подземную автостоянку</a></li>
+                <li class="docs-list__item"><a href=".zip">Проектная декларация и изменения на жилой дом №1</a></li>
+                <li class="docs-list__item"><a href=".txt">Проектная на жилой дом №1</a></li>
+                <li class="docs-list__item"><a href=".doc">Проектная декларация и изменения на жилой дом №1</a></li>
+                <li class="docs-list__item"><a href=".otf">Проектная декларация и изменения на двухуровневую подземную автостоянку</a></li>
+              </ul>
+            </div>                
+
+             
+            <div id="tab-content-map" class="project-map tab-content">
+              <div class="project-map__wrapper">
+                <img src="pictures/map-pleceholder.jpg" alt=""> 
+              </div>   
+            </div>                
+            
+            <div id="tab-content-sales" class="project-sales tab-content">
+
+              <div class="b-search   b-search--sales-page">
+
+                <div class="b-search__form-wrap">
+                  <form class="data-form">
+
+                    <div class="data-form__row">
+                      <div class="data-form__item   data-form__item--select">
+                        <label for="area">Район:</label>
+                        <span>
+                          <select name="search-area" id="area">
+                            <option value="1">1</option>
+                          </select>
+                        </span>
+                      </div>
+
+                      <div class="div-line"></div>
+
+                      <div class="data-form__item   data-form__item--select">
+                        <label for="rooms">Количество комнат:</label>
+                        <span>
+                          <select name="search-rooms" id="rooms">
+                            <option value="1">1</option>
+                          </select>
+                        </span>
+                      </div>
+
+                      <div class="div-line"></div>
+
+                      <div class="data-form__item   data-form__item--range">
+                        <label for="price">Стоимость, тыс.руб:</label>
+                        <input type="text" id="price" placeholder="От">
+                        <div class="div-line div-line--short"></div>
+                        <input type="text" id="price" placeholder="До">
+                      </div>
+
+                      <div class="div-line"></div>
+
+                      <div class="data-form__item   data-form__item--short">
+                        <label for="floor">Этаж:</label>
+                        <span>
+                          <select name="search-floor" id="floor">
+                            <option value="1">1</option>
+                          </select>
+                        </span>
+                      </div>  
+
+                    </div>
+
+                    <div class="data-form__row">
+                      <div class="data-form__item   data-form__item--select">
+                        <label for="material">Материал:</label>
+                        <span>
+                          <select name="search-material" id="material" disabled="">
+                            <option value="1">1</option>
+                          </select>
+                        </span>
+                      </div>
+
+                      <div class="div-line"></div>
+
+                      <div class="data-form__item   data-form__item--select">
+                        <label for="date">Срок сдачи мес.:</label>
+                        <span>
+                          <select name="search-date" id="date">
+                            <option value="1">1</option>
+                          </select>
+                        </span>
+                      </div>
+
+                      <div class="div-line"></div>
+
+                      <div class="data-form__item   data-form__item--range">
+                        <label for="square">Общая площадь, кв.м:</label>
+                        <input type="text" id="square" placeholder="От">
+                        <div class="div-line   div-line--short"></div>
+                        <input type="text" placeholder="До">
+                      </div>
+
+                      <div class="data-form__item   data-form__item--buttons">
+                        <input type="submit" value="Подобрать">
+                      </div>  
+
+                    </div>
+                    <div class="project-sales__clear">
+                      <button class="additional-button  sales-clear-button">Очистить параметры</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <table class="table-sales">
+                <tr>
+                  <th>Район</th>
+                  <th>№дома</th>
+                  <th>Этаж</th>
+                  <th>Комн.</th>
+                  <th>Пл.м<sup>2</sup></th>
+                  <th>Стены</th>
+                  <th>Дата сдачи</th>
+                  <th>Цена,тыс.руб.</th>
+                  <th>Зам<sup>2</sup></th>
+                  <th>С/у</th>
+                </tr>  
+                <tr>
+                  <td>Железнодорожный</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td>84,35</td>
+                  <td>монолит-кирпич</td>
+                  <td>март 2016</td>
+                  <td>3 258</td>
+                  <td>59,2</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Советский</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>1</td>
+                  <td>44,35</td>
+                  <td>солома</td>
+                  <td>март 2016</td>
+                  <td>2 025</td>
+                  <td>59,2</td>
+                  <td>1</td>
+                </tr> 
+                <tr>
+                  <td>Железнодорожный</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td>84,35</td>
+                  <td>монолит-кирпич</td>
+                  <td>март 2016</td>
+                  <td>3 258</td>
+                  <td>59,2</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Железнодорожный</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td>84,35</td>
+                  <td>монолит-кирпич</td>
+                  <td>март 2016</td>
+                  <td>3 258</td>
+                  <td>59,2</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Железнодорожный</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td>84,35</td>
+                  <td>монолит-кирпич</td>
+                  <td>март 2016</td>
+                  <td>3 258</td>
+                  <td>59,2</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Железнодорожный</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td>84,35</td>
+                  <td>монолит-кирпич</td>
+                  <td>март 2016</td>
+                  <td>3 258</td>
+                  <td>59,2</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Железнодорожный</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td>84,35</td>
+                  <td>монолит-кирпич</td>
+                  <td>март 2016</td>
+                  <td>3 258</td>
+                  <td>59,2</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Железнодорожный</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td>84,35</td>
+                  <td>монолит-кирпич</td>
+                  <td>март 2016</td>
+                  <td>3 258</td>
+                  <td>59,2</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Железнодорожный</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td>84,35</td>
+                  <td>монолит-кирпич</td>
+                  <td>март 2016</td>
+                  <td>3 258</td>
+                  <td>59,2</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Железнодорожный</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td>84,35</td>
+                  <td>монолит-кирпич</td>
+                  <td>март 2016</td>
+                  <td>3 258</td>
+                  <td>59,2</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Железнодорожный</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td>84,35</td>
+                  <td>монолит-кирпич</td>
+                  <td>март 2016</td>
+                  <td>3 258</td>
+                  <td>59,2</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Железнодорожный</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td>84,35</td>
+                  <td>монолит-кирпич</td>
+                  <td>март 2016</td>
+                  <td>3 258</td>
+                  <td>59,2</td>
+                  <td>1</td>
+                </tr>
+              </table>
+
+            </div>                
+
+          </div>
+        </div>
+      </div>
+
+      <!-- modal form -->
+      <div class="project-form   js-project-plan-form">
+      <div class="project-form__close js-plan-close"></div>
+        <div class="project-form__descr">
+          <div class="text-block">
+            <p class="text-block__header">1-комнатная квартира</p>
+            <p class="text-block__sub-header">Основные характеристики:</p>
+            <ul class="text-block__list">
+              <li>Общая площадь – 46,64 м²</li>
+              <li>Жилая площадь – 18,89 м²</li>
+              <li>Количество комнат – 1</li>
+              <li>Лоджия – нет</li>
+            </ul>
+            <p class="text-block__sub-header">Описание:</p>
+            <ul class="text-block__list">
+              <li>Квартира на 3-м этаже без лоджии.</li>
+              <li>Вид на новый строящийся парк !</li>
+              <li>Юго-западная сторона</li>
+              <li>Высота потолков 2,85 м, высота подоконников 0,75 м, большие окна. </li>
+              <li>Большие и удобные - холл, с/узел, кухня.</li>
+            </ul>
+          </div>
+          <div class="image-block">
+            <img src="pictures/plan-single.jpg">  
+          </div>
+          <div class="links-block">
+            <ul class="links-block__list">
+              <li><a href="#">Версия для печати</a></li>
+              <li><a href="#">Поиск квартир</a></li>
+              <li><a href="#">Другие объекты</a></li>
+            </ul>      
+          </div>   
+        </div>   
+        <div class="project-form__form">
+          <form method="post">
+            <input type="text" name="name" placeholder="Ваше имя"></input>  
+            <input type="text" name="number" placeholder="Ваш телефон"></input> 
+            <input type="submit" value="Заказать консультацию"></input> 
+          </form>  
+        </div>
+      </div>
+
+    </div>
+
+    <div class="b-search   js-form-search">
+      <div class="container">
+        <h2>Подбор квартир</h2>
+      </div>
+      <div class="b-search__form-wrap">
+        <div class="container">
+          <form class="data-form">
+
+            <div class="data-form__row">
+              <div class="data-form__item   data-form__item--select">
+                <label for="area">Район:</label>
+                <span>
+                  <select name="search-area" id="area">
+                    <option value="1">1</option>
+                  </select>
+                </span>
+              </div>
+
+              <div class="div-line"></div>
+
+              <div class="data-form__item   data-form__item--select">
+                <label for="rooms">Количество комнат:</label>
+                <span>
+                  <select name="search-rooms" id="rooms">
+                    <option value="1">1</option>
+                  </select>
+                </span>
+              </div>
+
+              <div class="div-line"></div>
+
+              <div class="data-form__item   data-form__item--range">
+                <label for="price">Стоимость, тыс.руб:</label>
+                <input type="text" id="price" placeholder="От">
+                <div class="div-line   div-line--short"></div>
+                <input type="text" placeholder="До">
+              </div>
+
+              <div class="div-line"></div>
+
+              <div class="data-form__item   data-form__item--short">
+                <label for="floor">Этаж:</label>
+                <span>
+                  <select name="search-floor" id="floor">
+                    <option value="1">1</option>
+                  </select>
+                </span>
+              </div>  
+    
+              <div class="data-form__item   data-form__item--buttons">
+                <input type="submit" value="Подобрать">
+                <a class="additional-button advanced-search" href="#">Расширенный поиск</a>
+              </div>  
+
+            </div>
+
+            
+          </form>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="container js-banner">
+      <div class="banner-container">
+        <a href="#"><img src="pictures/banner-placeholder.jpg"></a>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <footer class="page-footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-top__item   footer-top__item--1">
+          <h3 class="item-header">Отдел продаж:</h3>
+          <p class="item-text">+7 (391) 274-77-97</p>
+        </div>  
+        <div class="footer-top__item   footer-top__item--2">
+          <h3 class="item-header">Приемная:</h3>
+          <p class="item-text">+7 (391) 274-77-97</p>
+        </div>      
+        <div class="footer-top__item   footer-top__item--3">
+          <h3 class="item-header">Отдел маркетинга:</h3>
+          <p class="item-text">+7 (391) 274-87-99 (доб. 11-76, 11-75)</p>
+        </div>      
+        <div class="footer-top__item   footer-top__item--4">
+          <h3 class="item-header">Электронная почта:</h3>
+          <p class="item-text">info@samik.com</p>
+        </div>              
+      </div>   
+    </div>
+
+    <div class="footer-middle">
+      <div class="container">
+        <div class="footer-middle__item   footer-middle__item--1">
+          <h3 class="item-header">Пункт первый</h3>
+          <ul class="item-list">
+            <li class="item-list__position"><a href="#">Подпункт</a></li>
+            <li class="item-list__position"><a href="#">Руководство</a></li>
+            <li class="item-list__position"><a href="#">Награды</a></li>
+          </ul>
+        </div>         
+        <div class="footer-middle__item   footer-middle__item--2">
+          <h3 class="item-header">Пункт второй</h3>
+          <ul class="item-list">
+            <li class="item-list__position"><a href="#">Трёхкомнатные квартиры</a></li>
+            <li class="item-list__position"><a href="#">Трёхкомнатные квартиры</a></li>
+            <li class="item-list__position"><a href="#">Трёхкомнатные квартиры</a></li>
+          </ul>
+        </div>         
+        <div class="footer-middle__item   footer-middle__item--3">
+          <h3 class="item-header">Пункт третий</h3>
+          <ul class="item-list">
+            <li class="item-list__position"><a href="#">Информация для участников закупок</a></li>
+            <li class="item-list__position"><a href="#">Руководство</a></li>
+            <li class="item-list__position"><a href="#">Награды</a></li>
+          </ul>
+        </div>         
+        <div class="footer-middle__item   footer-middle__item--4">
+          <h3 class="item-header">Пункт четвертый</h3>
+          <ul class="item-list">
+            <li class="item-list__position"><a href="#">Информация для участников закупок</a></li>
+            <li class="item-list__position"><a href="">Руководство</a></li>
+            <li class="item-list__position"><a href="">Награды</a></li>
+          </ul>
+        </div>         
+      </div>  
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-copy">
+          <p>Все права защищены. 2016 г.</p> 
+        </div>
+        <div class="footer-bottom-logo">
+          <a href="http://foxunion.ru/"  target="_blank"><img src="images/copyright.png" width="105" height="28"></a>
+        </div>         
+        </div>        
+      </div>
+    </div>
+  </footer>
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#lightSlider").lightSlider({
+      gallery: true,
+      item: 1,
+      loop: true,
+      thumbItem: 7,
+
+      currentPagerPosition: 'right',
+
+      loop: true,
+      useCSS: false,
+      controls: true
+    }); 
+  });
+</script>
+
+
+  <script id="spinner-template" type="text/html">
+    <div class="spinner-wrap" spinner="{{spinnerNumber}}">
+      <div class="ispinner ispinner--gray ispinner--large ispinner--animating">
+        <div class="ispinner__blade"></div>
+        <div class="ispinner__blade"></div>
+        <div class="ispinner__blade"></div>
+        <div class="ispinner__blade"></div>
+        <div class="ispinner__blade"></div>
+        <div class="ispinner__blade"></div>
+        <div class="ispinner__blade"></div>
+        <div class="ispinner__blade"></div>
+        <div class="ispinner__blade"></div>
+        <div class="ispinner__blade"></div>
+        <div class="ispinner__blade"></div>
+        <div class="ispinner__blade"></div>
+      </div>                
+    </div>     
+  </script>
+
+  <script type="text/javascript" src="scripts/mustache.js"></script>
+  <script type="text/javascript" src="scripts/script.js"></script>
+
+</body>
+</html>
