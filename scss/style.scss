@@ -1,0 +1,19 @@
+@import 'variables';
+// common
+@import 'global/fonts';
+@import 'global/scaffolding';
+
+//layout
+@import 'blocks/l-page-content';
+@import 'blocks/l-page-header';
+@import 'blocks/l-page-footer';
+@import 'blocks/l-common-layout';
+
+//components
+@import 'blocks/c-main-header';
+@import 'blocks/c-socials-list';
+@import 'blocks/c-site-navigation';
+@import 'blocks/c-projects-list';
+@import 'blocks/c-footer-info';
+@import 'blocks/c-project-page';
+@import 'blocks/c-text-page';
