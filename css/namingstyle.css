@@ -1,0 +1,173 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 0px;
+  font-family: 'Open Sans';
+}
+
+.wrapper{
+  min-height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.block{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  display: inline-block;
+  width: calc(50% - 40px);
+}
+
+.block h2{
+  text-align: center;
+}
+
+/* OOCSS - structure */
+.oocss .card{
+  display: flex;
+  flex-direction: column;
+}
+
+.oocss .image{
+  margin: 0;
+  padding: 0;
+}
+
+.oocss .content{
+  margin-top: 10px;
+  border-top: 5px solid #dddddd;
+}
+
+/* OOCSS - object */
+.oocss .fullwidth{
+  width: 100%;
+}
+
+/* OOCSS - contents */
+.oocss .image-caption{
+  font-style: italic;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.oocss .text{
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.oocss .content-image{
+  border-bottom: 10px solid #dddddd;
+  border-radius: 10px;
+}
+
+/* SMACSS - layout */
+/* Base, layout, Module, state, theme */
+.smacss .l-card{
+  display: flex;
+  flex-direction: column;
+}
+
+.smacss .l-media{
+  margin: 0;
+  padding: 0;
+}
+
+.smacss .l-content{
+  margin-top: 10px;
+  border-top: 5px solid #dddddd;
+}
+
+/* SMACSS - contents */
+.smacss .image-caption{
+  font-style: italic;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.smacss .text{
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.smacss .content-image{
+  border-bottom: 10px solid #dddddd;
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* Atomic */
+.Bdtw\(5px\){
+  border-top-width: 5px;
+}
+
+.Bdts\(solid\){
+  border-top-style: solid;
+}
+
+.Bdtc\(ddd\){
+  border-top-color: #dddddd;
+}
+
+.Br\(10px\){
+  border-radius: 10px;
+}
+
+.W\(100pr\){
+  width: 100%;
+}
+
+.Fsize\(1.1rem\){
+  font-size: 1.1rem;
+}
+
+.Fstyle\(italic\){
+  font-style: italic;
+}
+
+.Fsize\(0.8rem\){
+  font-size: 0.8rem;
+}
+
+.Ta\(center\){
+  text-align: center;
+}
+
+.D\(flex\){
+  display: flex;
+}
+
+.FD\(col\){
+  flex-direction: column;
+}
+
+.m\(0\){
+  margin: 0;
+}
+
+.mt\(10px\){
+  margin-top: 10px;
+}
+
+.p\(0\){
+  margin: 0;
+}
+
+.Bdbw\(10px\){
+  border-bottom-width: 10px;
+}
+
+.Bdbs\(solid\){
+  border-bottom-style: solid;
+}
+
+.Bdbc\(ddd\){
+  border-bottom-color: #dddddd;
+}
