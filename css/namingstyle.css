@@ -23,7 +23,13 @@ body{
   margin-right: 20px;
   margin-bottom: 50px;
   display: inline-block;
-  width: calc(50% - 40px);
+  width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+  .block{
+    width: calc(50% - 40px);
+  }
 }
 
 .block h2{
@@ -66,6 +72,8 @@ body{
 .oocss .content-image{
   border-bottom: 10px solid #dddddd;
   border-radius: 10px;
+  height: 300px;
+  object-fit: cover;
 }
 
 /* SMACSS - layout */
@@ -101,6 +109,8 @@ body{
   border-bottom: 10px solid #dddddd;
   border-radius: 10px;
   width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 /* Atomic */
@@ -122,6 +132,14 @@ body{
 
 .W\(100pr\){
   width: 100%;
+}
+
+.H\(300px\){
+  height: 300px;
+}
+
+.ObjFit\(cover\){
+  object-fit: cover;
 }
 
 .Fsize\(1.1rem\){
@@ -170,4 +188,39 @@ body{
 
 .Bdbc\(ddd\){
   border-bottom-color: #dddddd;
+}
+
+/* ITCSS */
+.itcss .o-card{
+  display: flex;
+  flex-direction: column;
+}
+
+.itcss .o-media{
+  margin: 0;
+  padding: 0;
+}
+
+.itcss .o-media__image{
+  border-bottom: 10px solid #dddddd;
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.itcss .o-media__caption{
+  font-style: italic;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.itcss .c-content{
+  margin-top: 10px;
+  border-top: 5px solid #dddddd;
+}
+
+.itcss .c-content__text{
+  margin: 0;
+  font-size: 1.1rem;
 }
